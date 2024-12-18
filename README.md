@@ -1,5 +1,6 @@
 # Complete C# Programming Course 🌟
-Welcome to the Complete C# Programming Course! This repository contains the full source code and projects from an in-depth course designed to take you from a beginner to a proficient C# developer. Whether you're just starting out or want to deepen your knowledge, this course covers everything you need to master C#.
+Welcome to the Complete C# Programming Course! <br/>
+This repository contains the full source code and projects from an in-depth course designed to take you from a beginner to a proficient C# developer. Whether you're just starting out or want to deepen your knowledge, this course covers everything you need to master C#.
 
 ## 🛠 What You’ll Learn
 ### Core Concepts
