@@ -48,9 +48,8 @@ The repository is organized into sections for easy navigation:
 ## 🌟 Let’s Connect!
 If you enjoyed this course, don’t forget to:
 
-* Star ⭐ this repository to support the work!
+* <strong>Star ⭐ this repository</strong> to support the work!
 * Share your feedback and favorite projects in the issues section.
 * Follow me for more programming tutorials and resources.
-<br/>
 <br/>
 Happy Coding! 🚀
