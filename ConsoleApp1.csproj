@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BDC0EE1D-9011-4F34-9C80-A216F542B75A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Course Content\13. AdvanceClassConcepts.cs" />
+    <Compile Include="Course Content\08. Arrays.cs" />
+    <Compile Include="Course Content\10. ClassesObjects.cs" />
+    <Compile Include="Course Content\12. ClassesTypes.cs" />
+    <Compile Include="Course Content\09. Collections.cs" />
+    <Compile Include="Course Content\05. ConditionalStatements.cs" />
+    <Compile Include="Course Content\14. Exceptions.cs" />
+    <Compile Include="Course Content\15. File Operations.cs" />
+    <Compile Include="Course Content\04. InputOutputMethods.cs" />
+    <Compile Include="Course Content\06. Loops.cs" />
+    <Compile Include="Course Content\07. Methods.cs" />
+    <Compile Include="Course Content\11. ObjectOrientedProgramming.cs" />
+    <Compile Include="Course Content\03. OperatorsAndExpressions.cs" />
+    <Compile Include="Course Content\16. BestPractices.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Projects\1. CalculatorApp.cs" />
+    <Compile Include="Projects\2. BankAccountApp.cs" />
+    <Compile Include="Projects\3. ShapeCalculator.cs" />
+    <Compile Include="Projects\4. Extensions.cs" />
+    <Compile Include="Projects\5. TodoApp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Course Content\02. VariablesAndDataTypes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="App.config" />
+    <Compile Include="Course Content\01. HelloWorld.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="example.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
