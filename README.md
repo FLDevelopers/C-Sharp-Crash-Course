@@ -3,20 +3,20 @@ Welcome to the Complete C# Programming Course! <br/>
 This repository contains the full source code and projects from an in-depth course designed to take you from a beginner to a proficient C# developer. Whether you're just starting out or want to deepen your knowledge, this course covers everything you need to master C#.
 
 ## 🛠 What You’ll Learn
-### Core Concepts
+### 1. Core Concepts
 * Understanding C# and its relationship with the .NET framework.
 * Variables, data types, and operators to perform basic computations.
 * Control flow statements like if, switch, and loops (for, while, etc.).
   
-### Object-Oriented Programming (OOP)
+### 2. Object-Oriented Programming (OOP)
 * Mastering OOP principles: encapsulation, inheritance, and polymorphism.
 * Working with different class types: standard, static, abstract, sealed, nested, extension, and more.
 * Designing robust and reusable code through interfaces and method overriding.
   
-### Exception Handling
+### 3. Exception Handling
 * Writing secure and error-free applications using try-catch, finally, and custom exceptions.
   
-### File Operations
+### 4. File Operations
 * Reading, writing, and managing files using C# libraries and file streams.
   
 ## 🏗 Real-World Projects
